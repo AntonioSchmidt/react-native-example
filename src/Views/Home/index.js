@@ -1,6 +1,7 @@
 import React from 'react';
 import { get } from 'lodash';
 import { compose } from 'redux';
+import PropTypes from 'prop-types';
 import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
 import { connect } from 'react-redux';
 import HtmlView from 'react-native-htmlview';
@@ -52,6 +53,13 @@ class Home extends React.Component {
             </ScrollView>
         );
     }
+}
+
+Home.propTypes = {
+    text: PropTypes.string.isRequired,
+    numberOfChapters: PropTypes.number.isRequired,
+    getChapter: PropTypes.func.isRequired,
+    getStory: PropTypes.func.isRequired,
 }
 
 const ConnectedHome = connect(({ Story }) => ({
