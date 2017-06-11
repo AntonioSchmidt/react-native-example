@@ -1,0 +1,36 @@
+{
+  "name": "InkittTest",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "jest-expo": "~1.0.1",
+    "react-native-scripts": "0.0.31",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^17.0.0",
+    "lodash": "^4.17.4",
+    "react": "16.0.0-alpha.6",
+    "react-native": "^0.44.0",
+    "react-native-htmlview": "^0.9.0",
+    "react-redux": "^5.0.5",
+    "redux": "^3.6.0",
+    "redux-in-place": "0.0.9",
+    "redux-thunk": "^2.2.0",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
