@@ -1,3 +1,5 @@
+## Running
+Run `npm install` and then `npm run ios` 
 
 ## Table of Contents
 
@@ -23,3 +25,4 @@ This will start the process of "ejecting" from Create React Native App's build s
 
 I like to let the dependencies close to each other; in this way packages can be independent and it's easier maintain(see [organizing redux application](https://jaysoo.ca/2016/02/28/organizing-redux-application/)).
 rootReducer would be used for global purposes, error treatments, messages, alerts, etc...
+
