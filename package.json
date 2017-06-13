@@ -28,11 +28,11 @@
   },
   "dependencies": {
     "expo": "^17.0.0",
+    "htmlparser2-without-node-native": "^3.9.0",
     "lodash": "^4.17.4",
     "prop-types": "^15.5.10",
     "react": "16.0.0-alpha.6",
     "react-native": "^0.44.0",
-    "react-native-htmlview": "^0.9.0",
     "react-redux": "^5.0.5",
     "redux": "^3.6.0",
     "redux-in-place": "0.0.9",

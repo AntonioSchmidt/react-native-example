@@ -4,11 +4,11 @@ import { compose } from 'redux';
 import PropTypes from 'prop-types';
 import { ScrollView, View, TouchableOpacity, Text } from 'react-native';
 import { connect } from 'react-redux';
-import HtmlView from 'react-native-htmlview';
 import { connectReducer } from 'redux-in-place';
 import reducer from './reducer';
 import { loadChapter, loadStory } from './actions';
 import styles from './styles';
+import ChapterReader from '../../components/ChapterReader';
 
 class Home extends React.Component {
   constructor(props) {
@@ -49,7 +49,7 @@ class Home extends React.Component {
             </TouchableOpacity>
                     }
         </View>
-        <HtmlView value={this.props.text} />
+        <ChapterReader value={this.props.text} />
       </ScrollView>
     );
   }
